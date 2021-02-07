@@ -1,0 +1,76 @@
+.flag-large {
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+
+.flag-small {
+  border-radius: 2px;
+}
+
+/* canvas {
+  max-height: 550px;
+} */
+
+@media (max-width: 1050px) {
+  .ui.small.statistic > .value,
+  .ui.small.statistics .statistic > .value {
+    font-size: 2rem !important;
+  }
+
+  button.ui.button,
+  div.ui.blue.ribbon.label {
+    font-size: 0.8rem !important;
+  }
+
+  .ui.statistic > .value,
+  .ui.statistics .statistic > .value {
+    font-size: 3rem !important;
+  }
+}
+
+@media (max-width: 800px) {
+  div.ui.blue.ribbon.label {
+    font-size: 0.675rem !important;
+  }
+}
+
+@media (max-width: 767px) {
+  div.ui.three.statistics > * {
+    flex-basis: 100%;
+  }
+
+  .ui.statistic > .value,
+  .ui.statistics .statistic > .value {
+    font-size: 3rem !important;
+  }
+
+  div.ui.large.list {
+    display: none;
+  }
+
+  div.column:not(:last-child) {
+    border-top: none !important;
+    padding: 0 !important;
+  }
+
+  #deaths,
+  #confirmed,
+  #recovered {
+    padding: 0.3rem !important;
+  }
+
+  #country-header {
+    display: block !important;
+  }
+
+  .ui.fluid.container {
+    padding-top: 1rem !important;
+  }
+
+  div.column:not(:last-child) div.ui.divider {
+    display: none;
+  }
+
+  div.ui.blue.ribbon.label {
+    display: none;
+  }
+}
